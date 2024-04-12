@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Static Portfolio | Panda Man</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">D</span> Dante</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="pandaprofile.jpeg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Dante<br />The<br />Panda</h1>
+        </div>
+        <p class="section__description">
+          Hey there! I'm Dante, a curious panda with a passion for coding and a love for exploring the world of technology. 
+          From a young age, I've been fascinated by the power of programming to create innovative solutions and bring ideas to life.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="bg.png" alt="bg" class="about__bg-1" />
+        <img src="bg.png" alt="bg" class="about__bg-2" />
+        <img src="pandaicon.jpeg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About Me</h2>
+        <p class="section__description">
+          My journey into the world of coding began with a simple curiosity, which quickly grew into a deep-seated passion. 
+          I've spent countless hours honing my skills, learning new languages, and tackling challenging projects. 
+          Along the way, I've discovered a love for problem-solving and a knack for turning ideas into reality through code.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">My Best Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Website Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Mobile Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Game Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+        <h2 class="section__header">My Portfolio</h2>
+        <div class="portfolio__filters">
+          <button class="filter__btn active" data-filter="all">All</button>
+          <button class="filter__btn" data-filter="web">Web Design</button>
+          <button class="filter__btn" data-filter="app">App Design</button>
+          <button class="filter__btn" data-filter="graphic">Graphic Design</button>
+        </div>
+        <div class="portfolio__grid">
+          <!-- Portfolio items here -->
+          <div class="portfolio__item web">
+            <img src="webdesign1.jpeg" alt="Web Design 1">
+            <h3>Web Design 1</h3>
+          </div>
+          <div class="portfolio__item web">
+            <img src="webdesign2.jpeg" alt="Web Design 2">
+            <h3>Web Design 2</h3>
+          </div>
+          <div class="portfolio__item app">
+            <img src="appdesign1.jpeg" alt="App Design 1">
+            <h3>App Design 1</h3>
+          </div>
+          <div class="portfolio__item app">
+            <img src="appdesign2.jpeg" alt="App Design 2">
+            <h3>App Design 2</h3>
+          </div>
+          <div class="portfolio__item graphic">
+            <img src="graphicdesign1.jpeg" alt="Graphic Design 1">
+            <h3>Graphic Design 1</h3>
+          </div>
+          <div class="portfolio__item graphic">
+            <img src="graphicdesign2.jpeg" alt="Graphic Design 2">
+            <h3>Graphic Design 2</h3>
+          </div>
+        </div>
+      </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">D</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="#"><i class="ri-tumblr-line"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2024 Dante Donaldson. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
